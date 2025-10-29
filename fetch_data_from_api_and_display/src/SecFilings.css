@@ -1,0 +1,68 @@
+/* Container styling */
+.sec-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.sec-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+/* Filing list */
+.filing-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual filing item */
+.filing-item {
+  background-color: #f8faff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 6px solid #0056b3;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filing-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Filing link */
+.filing-item a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #0056b3;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.filing-item a:hover {
+  color: #003d80;
+  text-decoration: underline;
+}
+
+/* Status messages */
+.status {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 40px;
+}
+
+.status.error {
+  color: #d9534f;
+}
